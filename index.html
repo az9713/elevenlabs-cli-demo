@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>ElevenLabs CLI Demo — Listen</title>
+<style>
+  body { background:#0f172a; color:#e2e8f0; font-family:system-ui,sans-serif; max-width:720px; margin:0 auto; padding:2rem 1rem; }
+  h1 { color:#fb923c; font-size:1.5rem; }
+  p.sub { color:#94a3b8; }
+  .card { background:#1e293b; border:1px solid #334155; border-radius:10px; padding:1rem; margin:1rem 0; }
+  .card h2 { font-size:1rem; margin:0 0 .25rem; color:#2dd4bf; }
+  .card p { margin:.25rem 0 .6rem; color:#cbd5e1; font-size:.9rem; }
+  .card code { color:#fb923c; font-size:.8rem; }
+  audio { width:100%; }
+  a { color:#2dd4bf; }
+</style>
+</head>
+<body>
+<h1>ElevenLabs CLI Demo</h1>
+<p class="sub">Seven audio files generated from a terminal inside Claude Code.
+<a href="https://github.com/az9713/elevenlabs-cli-demo">Repo</a> ·
+<a href="https://elevenlabs.io/docs/eleven-agents/operate/cli">CLI docs</a> ·
+<a href="https://www.youtube.com/watch?v=MuORAEVtJIQ">Launch video</a></p>
+
+<div class="card"><h2>The Joke</h2><p>A British narrator tells a joke about this CLI.</p><code>elevenlabs text-to-speech convert</code><audio controls preload="none" src="audio/joke.mp3"></audio></div>
+<div class="card"><h2>The Sketch</h2><p>Two voices, emotion tags: [excited], [skeptical], [whispering].</p><code>elevenlabs text-to-dialogue convert</code><audio controls preload="none" src="audio/dialogue.mp3"></audio></div>
+<div class="card"><h2>Standing Ovation</h2><p>Applause inside a humming server room.</p><code>elevenlabs text-to-sound-effects convert</code><audio controls preload="none" src="audio/ovation.mp3"></audio></div>
+<div class="card"><h2>Closing Theme</h2><p>Chiptune victory fanfare melting into smooth jazz.</p><code>elevenlabs music compose</code><audio controls preload="none" src="audio/finale.mp3"></audio></div>
+<div class="card"><h2>Hello</h2><p>"Hello from the new ElevenLabs CLI."</p><code>elevenlabs text-to-speech convert</code><audio controls preload="none" src="audio/hello.mp3"></audio></div>
+<div class="card"><h2>Castle Door</h2><p>A heavy wooden door creaks open.</p><code>elevenlabs text-to-sound-effects convert</code><audio controls preload="none" src="audio/door.mp3"></audio></div>
+<div class="card"><h2>Rainy Afternoon</h2><p>Lo-fi track for a rainy afternoon.</p><code>elevenlabs music compose</code><audio controls preload="none" src="audio/track.mp3"></audio></div>
+</body>
+</html>
