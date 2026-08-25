@@ -8,7 +8,7 @@ A showcase of the [ElevenLabs CLI](https://github.com/elevenlabs/cli) (v1.0.0) d
 
 ## 🎧 Listen
 
-**Inline player: https://az9713.github.io/elevenlabs-cli-demo/** (GitHub Pages)
+**[▶ Play all 7 clips in your browser](https://az9713.github.io/elevenlabs-cli-demo/)** — the inline player (GitHub Pages, from [index.html](index.html))
 
 Or click any file — GitHub shows a play button on the file page:
 
