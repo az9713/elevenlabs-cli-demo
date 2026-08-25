@@ -93,4 +93,4 @@ No subagents; all work inline in one session.
 - **Live:** this repo, with 7 playable audio files and the GitHub Pages player.
 - **Costs:** 9,532 / 30,021 characters used on the starter tier after the whole session (~1,335 characters for all seven showcase generations).
 - **Blocked:** `flows video` and `dubbing` need a Creator+ plan. The exact commands are ready in the README.
-- **Open option:** push the fun greeting to the live agent with `elevenlabs agents push --agent goRsJn8V24ghAxurvNdO` — one command, currently parked at dry-run.
+- **Open option:** push the fun greeting to the live agent with `elevenlabs agents push --agent <id>` — one command, currently parked at dry-run.
